@@ -1,0 +1,387 @@
+body {
+    font-family: url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Css index*/
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+.hero {
+    margin: 10px;
+    padding: 10px;
+}
+
+.hero h1 {
+    background-color: rgba(80, 80, 227, 0.288);
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hero section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 80px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.hero section div {
+    flex: 1;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.hero section div h2 {
+    font-size: 28px;
+    padding: 10px;
+}
+
+.hero section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+/*Css página antropometria*/
+
+.antropometria {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.antropometria h1 {
+    background-color: rgba(80, 80, 227, 0.288);
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.seccion p {
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.imagenant {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.imagenant img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.seccion {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.composicion {
+    text-align: center;
+    margin-top: 60px;
+    padding: 20px;
+    background-color: rgba(80, 80, 227, 0.288);
+    border-radius: 10px;
+}
+
+.composicion a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.composicion a:hover {
+    text-decoration: underline;
+}
+
+/*Css página de contacto*/
+
+.contacto {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contacto h1 {
+    color:rgba(80, 80, 227, 0.888);
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.contacto p {
+    font-size: 20px;
+}
+
+.ubicacion {
+    padding: 25px;
+    border-radius: 12px;
+    flex: 1 1 400px;
+}
+
+.ubicacion h2 {
+    margin-bottom: 20px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.contact label {
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.contact input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+.contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: inherit;
+    min-height: 100px;
+}
+
+.formulario{
+    padding: 25px;
+    border-radius: 12px;
+    flex: 1 1 400px;
+}
+
+.formulario button {
+    background-color: rgba(80, 80, 227, 0.888);
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.formulario button:hover {
+    background-color: black;
+}
+
+.ubicacion iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 8px;
+}
+
+/*Css página planes nutricionales*/
+
+.contenedor {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.titulo {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+}
+
+.titulo a {
+    color: rgba(66, 143, 165, 0.929);
+    text-decoration: none;
+}
+
+.titulo a:hover {
+    color: #306eb6;
+    text-decoration: underline;
+}
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 55px;
+    padding: 10px;
+    margin: 0 100px 100px 100px;
+}
+
+.tarjeta {
+    background-color: #94e1e4be;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.tarjeta h3 {
+    margin: 15px;
+    font-size: 18px;
+}
+
+.tarjeta p {
+    margin: 0 15px 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.boton {
+    margin: 0 15px 15px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(66, 143, 165, 0.929);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.boton:hover {
+    background-color: #eff2f5;
+    color: black;
+}
+
+/*Css página de recomendaciones*/
+
+.recomendaciones {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.recomendaciones h1 {
+    background-color: rgba(80, 80, 227, 0.288);
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.recomendacion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.recomendacion img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+/*Css footer*/
+
+footer {
+    background-color: rgba(80, 80, 227, 0.288);
+    padding: 20px 20px;
+    text-align: center;
+}
+
+footer h3 {
+    margin-bottom: 40px;
+    color: black;
+    font-size: 20px;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer img {
+    width: 45px;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+footer a:hover img {
+    transform: scale(1.1);
+}
+
+/* Media Query Index  */
+
+@media (max-width: 778px) {
+    .hero section {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 526px) {
+    .hero h1 {
+        font-size: 22px;
+    }
+
+    .hero section div h2 {
+        font-size: 20px;
+    }
+
+    footer h3 {
+        font-size: 15px;
+    }
+}
+
+/*media query planes nutricionales*/
+
+@media (max-width: 900px) {
+    .tarjetas-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .tarjetas-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .titulo {
+        font-size: 18px;
+    }
+}
+
+/*media query recomendaciones*/
+
+@media (max-width: 768px) {
+    .recomendacion {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .recomendacion img {
+        width: 100%;
+        max-width: 300px;
+    }
+}
