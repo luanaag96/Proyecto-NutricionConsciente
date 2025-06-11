@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-nutricionconsciente",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luanaag96/Proyecto-NutricionConsciente.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luanaag96/Proyecto-NutricionConsciente/issues"
+  },
+  "homepage": "https://github.com/luanaag96/Proyecto-NutricionConsciente#readme",
+  "description": ""
+}

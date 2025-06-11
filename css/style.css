@@ -14,7 +14,7 @@ header {
     top: 0;
 }
 
-header nav div a img {
+.navbar-brand img {
     width: 125px;
 }
 
