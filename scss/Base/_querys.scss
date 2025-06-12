@@ -35,13 +35,13 @@
 /*media query planes nutricionales*/
 
 @media (max-width: 900px) {
-    .tarjetas-grid {
+    .tarjetas {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 600px) {
-    .tarjetas-grid {
+    .tarjetas {
         grid-template-columns: 1fr;
     }
 
