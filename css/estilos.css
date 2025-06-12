@@ -327,6 +327,7 @@ footer div a img:hover {
 @media (max-width: 600px) {
   .tarjetas {
     grid-template-columns: 1fr;
+    margin: auto;
   }
   .titulo {
     font-size: 18px;

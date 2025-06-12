@@ -43,6 +43,7 @@
 @media (max-width: 600px) {
     .tarjetas {
         grid-template-columns: 1fr;
+        margin: auto;
     }
 
     .titulo {
