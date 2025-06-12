@@ -1,0 +1,32 @@
+/*Aplicando funcionalidades*/
+
+/*VARIABLES*/
+
+$color: rgba(80, 80, 227, 0.288);
+
+/*LISTAS*/
+
+$paddings: 10px,
+    20px,
+    30px,
+    40px,
+    50px,
+    60px;
+
+/*EXTENDS*/
+
+%tarjeta {
+    background-color: #94e1e4be;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/*MIXIN*/
+
+@mixin flex ($flex, $justify, $algin){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $algin;
+}

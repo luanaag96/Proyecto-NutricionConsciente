@@ -1,0 +1,73 @@
+/*MEDIA QUERYS*/
+
+/* Media Query Index  */
+
+@media (max-width: 778px) {
+    .hero section {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .texto {
+        order: 1;
+    }
+
+    .imgresponsive {
+        order: 2;
+    }
+}
+
+
+@media screen and (max-width: 526px) {
+    .hero h1 {
+        font-size: 22px;
+    }
+
+    .hero section div h2 {
+        font-size: 20px;
+    }
+
+    footer h3 {
+        font-size: 15px;
+    }
+}
+
+/*media query planes nutricionales*/
+
+@media (max-width: 900px) {
+    .tarjetas-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .tarjetas-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .titulo {
+        font-size: 18px;
+    }
+}
+
+/*media query recomendaciones*/
+
+@media (max-width: 768px) {
+    .recomendaciones .recomendacion {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .recomendaciones .recomendacion img {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+/*media query FOOTER*/
+
+@media screen and (max-width: 526px) {
+    footer h3 {
+        font-size: 15px;
+    }
+}
