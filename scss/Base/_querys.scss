@@ -27,9 +27,6 @@
         font-size: 20px;
     }
 
-    footer h3 {
-        font-size: 15px;
-    }
 }
 
 /*media query planes nutricionales*/
@@ -67,8 +64,18 @@
 
 /*media query FOOTER*/
 
-@media screen and (max-width: 526px) {
-    footer h3 {
-        font-size: 15px;
+@media screen and (max-width: 526px) {  
+    footer div h3 {
+        font-size: 20px;
+    }
+
+    footer div p {
+        font-size: 14px;
+    }
+
+    footer div h4 {
+        font-size: 16px;
     }
 }
+
+    

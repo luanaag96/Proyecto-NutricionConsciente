@@ -36,6 +36,7 @@ header {
 }
 .hero h1 {
   background-color: rgba(80, 80, 227, 0.288);
+  font-family: "Playfair Display", serif;
   font-size: 30px;
   text-align: center;
   padding: 10px;
@@ -60,6 +61,34 @@ header {
   width: 100%;
   border-radius: 10px;
   object-fit: cover;
+}
+
+.testimonios {
+  background: rgba(150, 157, 220, 0.5215686275);
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+.testimonios h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 2.5rem;
+}
+.testimonios .testimonio {
+  display: grid;
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+.testimonios .testimonio div {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.269);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /*SASS ANTROPOMETRIA*/
@@ -268,28 +297,41 @@ header {
   border-radius: 8px;
 }
 
-/*SASS FOOTER*/
 footer {
-  background-color: rgba(80, 80, 227, 0.288);
-  padding: 20px 20px;
-  text-align: center;
-}
-footer h3 {
-  margin-bottom: 40px;
+  background: linear-gradient(135deg, rgba(80, 80, 227, 0.288), rgb(156, 156, 231));
   color: black;
+  padding: 50px 20px 20px;
+  text-align: center;
+  font-weight: 500;
+}
+footer div h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-family: "Playfair Display", serif;
+}
+footer div p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+footer div h4 {
+  margin-bottom: 10px;
+  padding: 10px;
   font-size: 20px;
 }
-footer div {
+footer div .redes {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
-footer div a img {
+footer div .redes a {
+  padding: 5px;
+}
+footer div .redes a img {
   width: 45px;
   height: auto;
-  transition: transform 0.3s;
+  transition: transform 0.5s;
 }
-footer div a img:hover {
+footer div .redes a img:hover {
   transform: scale(1.1);
 }
 
@@ -313,9 +355,6 @@ footer div a img:hover {
   }
   .hero section div h2 {
     font-size: 20px;
-  }
-  footer h3 {
-    font-size: 15px;
   }
 }
 /*media query planes nutricionales*/
@@ -346,8 +385,14 @@ footer div a img:hover {
 }
 /*media query FOOTER*/
 @media screen and (max-width: 526px) {
-  footer h3 {
-    font-size: 15px;
+  footer div h3 {
+    font-size: 20px;
+  }
+  footer div p {
+    font-size: 14px;
+  }
+  footer div h4 {
+    font-size: 16px;
   }
 }
 
