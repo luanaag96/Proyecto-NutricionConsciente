@@ -27,6 +27,21 @@
         font-size: 20px;
     }
 
+    .hero .frase-final {
+        font-size: 18px;
+    }
+
+    .testimonio {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .testimonio div {
+        width: 90%;
+        max-width: 350px;
+    }
+
 }
 
 /*media query planes nutricionales*/
@@ -46,7 +61,16 @@
     .titulo {
         font-size: 18px;
     }
+
+    .contenedor p {
+        font-size: 14px;
+    }
+
+    .contenedor p a {
+        display: inline-block;
+    }
 }
+
 
 /*media query recomendaciones*/
 
@@ -64,7 +88,7 @@
 
 /*media query FOOTER*/
 
-@media screen and (max-width: 526px) {  
+@media screen and (max-width: 526px) {
     footer div h3 {
         font-size: 20px;
     }
@@ -77,5 +101,3 @@
         font-size: 16px;
     }
 }
-
-    
