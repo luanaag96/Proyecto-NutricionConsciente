@@ -278,9 +278,8 @@ header {
 .tarjetas {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 55px;
-  padding: 10px;
-  margin: 0 100px 100px 100px;
+  margin: 0 auto 3rem;
+  padding: 0 1rem;
 }
 .tarjetas .tarjeta img {
   width: 100%;
@@ -421,16 +420,14 @@ footer div .redes a img:hover {
 @media (max-width: 600px) {
   .tarjetas {
     grid-template-columns: 1fr;
-    margin: auto;
+    margin: 0 1.5rem 3rem;
+    gap: 1.5rem;
   }
   .titulo {
     font-size: 18px;
   }
   .contenedor p {
     font-size: 14px;
-  }
-  .contenedor p a {
-    display: inline-block;
   }
 }
 /*media query recomendaciones*/

@@ -55,7 +55,8 @@
 @media (max-width: 600px) {
     .tarjetas {
         grid-template-columns: 1fr;
-        margin: auto;
+        margin: 0 1.5rem 3rem;
+        gap: 1.5rem;
     }
 
     .titulo {
@@ -66,9 +67,6 @@
         font-size: 14px;
     }
 
-    .contenedor p a {
-        display: inline-block;
-    }
 }
 
 
