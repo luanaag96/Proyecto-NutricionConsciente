@@ -52,21 +52,22 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 526px) {
     .tarjetas {
         grid-template-columns: 1fr;
-        margin: 0 1.5rem 3rem;
-        gap: 1.5rem;
     }
 
-    .titulo {
-        font-size: 18px;
-    }
+    .contenedor {
+        padding: 1.5rem 1rem;
 
-    .contenedor p {
-        font-size: 14px;
-    }
+        .titulo {
+            font-size: 22px;
+        }
 
+        p {
+            font-size: 14px;
+        }
+    }
 }
 
 
